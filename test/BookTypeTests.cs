@@ -36,7 +36,7 @@ namespace test
             int n = 3;
             SetValue(n); 
 
-            Assert.Equals(3, n);
+            Assert.Equal(3, n);
         }
         
         public BookInstance GetBook()
